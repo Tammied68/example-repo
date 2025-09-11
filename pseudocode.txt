@@ -1,0 +1,39 @@
+#pseudo.txt
+
+#Scenario 1
+#Set largest_number to 0 #Prompt user to enter a positive number (0 to stop) #Read user_input  
+#If it is not 0 do this #WHILE user_input is not = to 0 DO     #IF user_input > largest_number THEN        # Set largest_number to user_input     #END IF (Circles back to WHILE to see if the user input is 0)      
+#Prompt user to enter a positive number (0 to stop)     #Read user_input #END WHILE   #Print "The largest number entered was: ", largest_number
+
+
+#Scenario 2
+#Request user’s name
+#Store input into variable called first_name
+#Print first_name
+#Print first_name + “Hello, World” on the same line
+
+
+#Scenario 3
+#Set sum ← 0 #Set count ← 0  #Prompt user: "Enter a number (enter a number > 100 to stop):" #Read random 
+#I like using ← instead of =  #WHILE random ≤ 100 DO     #total ← total + random     #count ← count + 1      #Prompt user: "Enter another number (enter a number > 100 to stop):"     #Read random #END WHILE  #IF count ≠ 0 THEN     #average ← total / count     #Display "The arithmetic average is", average #ELSE     #Display "No valid numbers were entered to compute an average." #END IF 
+
+
+#Scenario 4 
+#Prompt user: "Enter your full grocery list (separated by commas):" #Read grocery_input #SET grocery_list ← split grocery_input into a list of items  #Prompt user: "Enter the items you have already bought (separated by commas):" #Read bought_input #SET items_bought ← split bought_input into a list of items  #FOR each item IN items_bought DO     #REMOVE item FROM grocery_list #END FOR  #SET items_remaining ← grocery_list #SORT items_remaining in alphabetical order  #Display "Items still to buy:", items_remaining
+
+#Scenario 5
+#Prompt user: "Enter value for X:" 
+#Read X 
+ 
+#Prompt user: "Enter value for Y:" 
+#Read Y 
+ 
+#SET S ← X + Y           // Sum 
+#SET A ← (X + Y) / 2     // Average 
+#SET P ← X * Y           // Product 
+ 
+#Display "Sum (S) =", S 
+#Display "Average (A) =", A 
+#Display "Product (P) =", P 
+ 
+
