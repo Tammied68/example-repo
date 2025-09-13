@@ -14,11 +14,14 @@ This work aligns with the following Bootcamp module:
 You can view this repository at:  
 [https://github.com/Tammied68/example-repo.git](https://github.com/Tammied68/example-repo.git)
 
+
 ## 📄 Contents
 
 - `pseudocode.txt`: Reference pseudocode for Bootcamp tasks  
 - `example-repo.txt`: Contains the GitHub repo URL  
-- `repo_file.txt`: Additional notes or task-related content
+- `repo_file.txt`: Additional notes or task-related content  
+- `assignment.py`: Python assignment for Bootcamp task M03T09
+
 
 ## 🛠️ Notes
 
